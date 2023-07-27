@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif !important; 
+}
+/* Base Text Color #bcbcbc  */
+/* Base Background Color #fff */
+/* light Bluilsh Shade #ced2e4 
+    purple Shade #d8cbf7
+    yellow shade #f3f37b
+    offBlue shade #bedce4
+*/
+
+body{
+  background-color: #fff;
+  color: #bcbcbc;
+}
+.v-line{
+  border: 0.5px solid #eee;
+  height: 50px;
+}
+.c-black{
+  color: #000;
+}
+.pink-color{
+  color: #F92E8B;
+}
+.btn-feel:hover{
+  background-color: #000;
+}
+.task-font{
+  font-size: 18px;
+}
+.MuiPickersDatePickerRoot-toolbarLandscape{
+  display: none !important;
+}
+.subtask-font{
+  font-size: 14px;
+}
+.nav-links{
+  color: #bcbcbc;
+  text-decoration: none;
+}
+.extra-links{
+  color: #000 !important;
+  text-decoration: none;
+}
+.nav-links:hover,.nav-links:active,.extra-links:hover{
+  color: #9b90b9;
+}
+
+/* Custom Button Class */
+
+.btn{
+  margin: 12px 0 !important;
+  background-color:#fff !important;
+  padding: 10px !important;
+  border-radius: 100px !important;
+  border: 1px solid #eee !important;
+  font-size: 1.1rem !important;
+}
+a{
+  text-decoration: none;
+}
+.btn-pink{
+  background-color:#F92E8B !important;
+  border: 1px solid #F92E8B !important;
+  color: #fff !important;
+}
+
+/* Target MUI Class */
+.MuiButton-root{
+  text-transform: none !important;
+}
+
